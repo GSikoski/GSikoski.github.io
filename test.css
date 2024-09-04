@@ -61,6 +61,7 @@
     height: 500px;
     display: flex;
     height: 80vh;
+    background-color: #eaf1e8;
 }
 
 .course-summary-table{
@@ -70,7 +71,7 @@
     padding-left: 10px;
 }
 .course-summary{
-    background-color: #ffffff;
+    background-color: #101010;
     border: 2px solid #cccccc;
     border-radius: 15px;
     padding-left: 10px;
@@ -80,12 +81,12 @@
     height: 20%;
 }
 .course-summary-heading{
-    color: black;
+    color: #cccccc;
     font-family: "Noto Sans JP";
     font-size: 28px;
 }
 .course-summary-text{
-    color: black;
+    color: #cccccc;
     font-family: "Noto Sans JP";
     font-size: 14px;
     /* list-style: circle; */
@@ -99,7 +100,7 @@
     padding-left: 10px;
 }
 .notes{
-    background-color: #ffffff;
+    background-color: #101010;
     border: 2px solid #cccccc;
     border-radius: 15px;
     padding-left: 10px;
