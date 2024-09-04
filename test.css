@@ -79,13 +79,11 @@
     height: 100px;
 }
 .course-summary-heading{
-    height: 100%;
     color: black;
     font-family: "Noto Sans JP";
     font-size: 28px;
 }
 .course-summary-text{
-    height: 100%;
     color: black;
     font-family: "Noto Sans JP";
     font-size: 14px;
