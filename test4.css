@@ -116,6 +116,21 @@
     color: #ecfdfd; 
 }
 
+.nav-back-box{
+    width: 100%;
+    background-color: #a8afad;
+    height: 100%;
+    align-content: center;
+    display: flex;
+    gap: 15px;
+    padding-right: 10px;
+}
+
+.nav-back-box *:not(:first-child){
+    font-size: medium;
+}
+
+
 .recommended-grid{
     display: grid;
     padding-top: 12px;
@@ -140,6 +155,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 .recommended-grid-cell p{
     font-size: 14px;
 }
