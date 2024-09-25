@@ -138,6 +138,28 @@
     transition: transform 0.3s ease;
 }
 
+.grade-options {
+    display: flex;
+    justify-content: space-between; /* Space out buttons evenly */
+    margin-top: auto; /* Pushes buttons to the bottom */
+}
+
+.grade-options button {
+    flex: 1; /* Makes buttons take equal space */
+    margin: 0 5px; /* Space between buttons */
+    padding: 10px; /* Adds some padding inside buttons */
+    border: none;
+    border-radius: 5px; /* Slightly rounded buttons */
+    background-color: #333; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.grade-options button:hover {
+    background-color: #555; /* Darker on hover */
+}
+
 .month {
     padding-top: 10px;
     padding-bottom: 10px;
