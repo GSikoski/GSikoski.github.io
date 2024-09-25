@@ -136,6 +136,8 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    padding: 10px; /* Updated padding for consistency */
+    justify-content: space-between; /* To space out the content */
 }
 
 .grade-options {
