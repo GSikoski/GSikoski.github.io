@@ -51,7 +51,14 @@
     font-family: "Noto Sans JP";
     font-size: 16px;
     padding: 0px 20px;
+    align-items: center;
 }
+
+.navigation a li i {
+    margin-right: 8px; /* Spacing between icon and text */
+    font-size: 18px; /* Icon size */
+}
+
 .navigation a :last-child{
     padding-right: 0px;
 }
